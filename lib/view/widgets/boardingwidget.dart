@@ -31,9 +31,9 @@ class BoardingWidget extends StatelessWidget {
           ),
           Positioned.fill(
             child: BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 4.0, sigmaY: 4.0),
+              filter: ImageFilter.blur(sigmaX: 1.0, sigmaY: 1.0),
               child: Container(
-                color: Colors.black.withOpacity(0.2), // Adjust the opacity as needed
+                color: Colors.black45.withOpacity(0.3),
               ),
             ),
           ),
@@ -46,7 +46,7 @@ class BoardingWidget extends StatelessWidget {
                   filter: ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),
                   child: Container(
                     width: double.infinity,
-                    color: Colors.black.withOpacity(0.25),
+                    color: Colors.white.withOpacity(0.25),
                     padding: const EdgeInsets.all(20.0),
                     child: Column(
                       mainAxisSize: MainAxisSize.min,

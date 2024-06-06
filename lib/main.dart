@@ -20,4 +20,4 @@ void main() => runApp(GetMaterialApp(
       GetPage(name: '/signin', page: () => Login()),
           GetPage(name: '/verification', page:() => Verification() )
     ],
-    home: const Splash()));
+    home:const Splash()));

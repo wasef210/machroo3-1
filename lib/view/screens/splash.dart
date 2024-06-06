@@ -31,7 +31,7 @@ class Splash extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                     Image.asset(
-                      'assets/logo.png',
+                      'assets/wasef logo-01.png',
                       height: 300,
                       width: 300,
                     ),

@@ -34,7 +34,7 @@ class Login extends StatelessWidget {
                 children: [
                   const SizedBox(height: 130),
                   Image.asset(
-                    'assets/logo.png',
+                    'assets/wasef logo-01.png',color: Colors.black,
                     width: 350,
                     height: 300,
                   ),
