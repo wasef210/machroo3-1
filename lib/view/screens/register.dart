@@ -53,7 +53,7 @@ class Register extends StatelessWidget {
                             decoration: InputDecoration(
                               hintText: 'Name',
                               hintStyle: const TextStyle(color: Colors.white54),
-                              prefixIcon: const Icon(Icons.person, color: Color.fromRGBO(244, 199, 156, 50)),
+                              prefixIcon: const Icon(Icons.person, color: Colors.white),
                               filled: true,
                               fillColor: Colors.transparent,
                               enabledBorder: OutlineInputBorder(
@@ -73,7 +73,7 @@ class Register extends StatelessWidget {
                             decoration: InputDecoration(
                               hintText: 'Email',
                               hintStyle: const TextStyle(color: Colors.white54),
-                              prefixIcon: const Icon(Icons.email, color: Color.fromRGBO(244, 199, 156, 50)),
+                              prefixIcon: const Icon(Icons.email, color: Colors.white),
                               filled: true,
                               fillColor: Colors.transparent,
                               enabledBorder: OutlineInputBorder(
@@ -94,11 +94,11 @@ class Register extends StatelessWidget {
                             decoration: InputDecoration(
                               hintText: 'Password',
                               hintStyle: const TextStyle(color: Colors.white54),
-                              prefixIcon: const Icon(Icons.lock, color: Color.fromRGBO(244, 199, 156, 50)),
+                              prefixIcon: const Icon(Icons.lock, color: Colors.white),
                               suffixIcon: IconButton(
                                 icon: Icon(
                                   _registerController.obscureText.value ? Icons.visibility : Icons.visibility_off,
-                                  color: const Color.fromRGBO(244, 199, 156, 50),
+                                  color: Colors.white,
                                 ),
                                 onPressed: () {
                                   _registerController.toggleObscureText();
@@ -124,11 +124,11 @@ class Register extends StatelessWidget {
                             decoration: InputDecoration(
                               hintText: 'Confirm Password',
                               hintStyle: const TextStyle(color: Colors.white54),
-                              prefixIcon: const Icon(Icons.lock, color: Color.fromRGBO(244, 199, 156, 50)),
+                              prefixIcon: const Icon(Icons.lock, color: Colors.white),
                               suffixIcon: IconButton(
                                 icon: Icon(
                                   _registerController.obscureText.value ? Icons.visibility : Icons.visibility_off,
-                                  color: const Color.fromRGBO(244, 199, 156, 50),
+                                  color:  Colors.white,
                                 ),
                                 onPressed: () {
                                   _registerController.toggleObscureText();
