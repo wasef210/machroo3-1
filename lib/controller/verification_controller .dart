@@ -14,7 +14,7 @@ class VerificationController extends GetxController {
     isLoading.value = true;
 
     final code = verificationCode.value;
-    final url = 'https://yourapi.com/verify';
+    const url = 'https://yourapi.com/verify';
 
     try {
       final response = await http.post(

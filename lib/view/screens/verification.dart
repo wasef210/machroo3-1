@@ -24,7 +24,7 @@ class Verification extends StatelessWidget {
             child: BackdropFilter(
               filter: ImageFilter.blur(sigmaX: 7, sigmaY: 7),
               child: Container(
-                color: Colors.black12.withOpacity(0.5),
+                color: Colors.black12.withOpacity(0.5 ),
               ),
             ),
           ),
